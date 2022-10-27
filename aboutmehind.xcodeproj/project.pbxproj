@@ -34,14 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8587C802290AA9B600813365 /* aboutme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aboutme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8587C802290AA9B600813365 /* aboutmehind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aboutmehind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8587C805290AA9B600813365 /* aboutmeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutmeApp.swift; sourceTree = "<group>"; };
 		8587C807290AA9B600813365 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8587C809290AA9B700813365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8587C80C290AA9B700813365 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8587C812290AA9B700813365 /* aboutmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aboutmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8587C812290AA9B700813365 /* aboutmehindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aboutmehindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8587C816290AA9B700813365 /* aboutmeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutmeTests.swift; sourceTree = "<group>"; };
-		8587C81C290AA9B700813365 /* aboutmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aboutmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8587C81C290AA9B700813365 /* aboutmehindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aboutmehindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8587C820290AA9B700813365 /* aboutmeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutmeUITests.swift; sourceTree = "<group>"; };
 		8587C822290AA9B700813365 /* aboutmeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutmeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,9 +84,9 @@
 		8587C803290AA9B600813365 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8587C802290AA9B600813365 /* aboutme.app */,
-				8587C812290AA9B700813365 /* aboutmeTests.xctest */,
-				8587C81C290AA9B700813365 /* aboutmeUITests.xctest */,
+				8587C802290AA9B600813365 /* aboutmehind.app */,
+				8587C812290AA9B700813365 /* aboutmehindTests.xctest */,
+				8587C81C290AA9B700813365 /* aboutmehindUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8587C801290AA9B600813365 /* aboutme */ = {
+		8587C801290AA9B600813365 /* aboutmehind */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8587C826290AA9B700813365 /* Build configuration list for PBXNativeTarget "aboutme" */;
+			buildConfigurationList = 8587C826290AA9B700813365 /* Build configuration list for PBXNativeTarget "aboutmehind" */;
 			buildPhases = (
 				8587C7FE290AA9B600813365 /* Sources */,
 				8587C7FF290AA9B600813365 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = aboutme;
+			name = aboutmehind;
 			productName = aboutme;
-			productReference = 8587C802290AA9B600813365 /* aboutme.app */;
+			productReference = 8587C802290AA9B600813365 /* aboutmehind.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8587C811290AA9B700813365 /* aboutmeTests */ = {
+		8587C811290AA9B700813365 /* aboutmehindTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8587C829290AA9B700813365 /* Build configuration list for PBXNativeTarget "aboutmeTests" */;
+			buildConfigurationList = 8587C829290AA9B700813365 /* Build configuration list for PBXNativeTarget "aboutmehindTests" */;
 			buildPhases = (
 				8587C80E290AA9B700813365 /* Sources */,
 				8587C80F290AA9B700813365 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				8587C814290AA9B700813365 /* PBXTargetDependency */,
 			);
-			name = aboutmeTests;
+			name = aboutmehindTests;
 			productName = aboutmeTests;
-			productReference = 8587C812290AA9B700813365 /* aboutmeTests.xctest */;
+			productReference = 8587C812290AA9B700813365 /* aboutmehindTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8587C81B290AA9B700813365 /* aboutmeUITests */ = {
+		8587C81B290AA9B700813365 /* aboutmehindUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8587C82C290AA9B700813365 /* Build configuration list for PBXNativeTarget "aboutmeUITests" */;
+			buildConfigurationList = 8587C82C290AA9B700813365 /* Build configuration list for PBXNativeTarget "aboutmehindUITests" */;
 			buildPhases = (
 				8587C818290AA9B700813365 /* Sources */,
 				8587C819290AA9B700813365 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				8587C81E290AA9B700813365 /* PBXTargetDependency */,
 			);
-			name = aboutmeUITests;
+			name = aboutmehindUITests;
 			productName = aboutmeUITests;
-			productReference = 8587C81C290AA9B700813365 /* aboutmeUITests.xctest */;
+			productReference = 8587C81C290AA9B700813365 /* aboutmehindUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8587C7FD290AA9B600813365 /* Build configuration list for PBXProject "aboutme" */;
+			buildConfigurationList = 8587C7FD290AA9B600813365 /* Build configuration list for PBXProject "aboutmehind" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8587C801290AA9B600813365 /* aboutme */,
-				8587C811290AA9B700813365 /* aboutmeTests */,
-				8587C81B290AA9B700813365 /* aboutmeUITests */,
+				8587C801290AA9B600813365 /* aboutmehind */,
+				8587C811290AA9B700813365 /* aboutmehindTests */,
+				8587C81B290AA9B700813365 /* aboutmehindUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		8587C814290AA9B700813365 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8587C801290AA9B600813365 /* aboutme */;
+			target = 8587C801290AA9B600813365 /* aboutmehind */;
 			targetProxy = 8587C813290AA9B700813365 /* PBXContainerItemProxy */;
 		};
 		8587C81E290AA9B700813365 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8587C801290AA9B600813365 /* aboutme */;
+			target = 8587C801290AA9B600813365 /* aboutmehind */;
 			targetProxy = 8587C81D290AA9B700813365 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aboutme.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aboutme";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aboutmehind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aboutmehind";
 			};
 			name = Debug;
 		};
@@ -499,7 +499,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aboutme.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aboutme";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aboutmehind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aboutmehind";
 			};
 			name = Release;
 		};
@@ -540,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8587C7FD290AA9B600813365 /* Build configuration list for PBXProject "aboutme" */ = {
+		8587C7FD290AA9B600813365 /* Build configuration list for PBXProject "aboutmehind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8587C824290AA9B700813365 /* Debug */,
@@ -549,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8587C826290AA9B700813365 /* Build configuration list for PBXNativeTarget "aboutme" */ = {
+		8587C826290AA9B700813365 /* Build configuration list for PBXNativeTarget "aboutmehind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8587C827290AA9B700813365 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8587C829290AA9B700813365 /* Build configuration list for PBXNativeTarget "aboutmeTests" */ = {
+		8587C829290AA9B700813365 /* Build configuration list for PBXNativeTarget "aboutmehindTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8587C82A290AA9B700813365 /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8587C82C290AA9B700813365 /* Build configuration list for PBXNativeTarget "aboutmeUITests" */ = {
+		8587C82C290AA9B700813365 /* Build configuration list for PBXNativeTarget "aboutmehindUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8587C82D290AA9B700813365 /* Debug */,
