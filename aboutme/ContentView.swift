@@ -15,7 +15,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
             VStack (alignment:.leading){
                 
-                Image("me")
+                Image("rema")
                     .resizable()
                     .scaledToFit()
                     .clipShape(Circle())
@@ -31,7 +31,7 @@ struct ContentView: View {
                     .foregroundColor(Color.indigo)
                     .padding(/*@START_MENU_TOKEN@*/.bottom, 2.0/*@END_MENU_TOKEN@*/)
                 
-                Text("MY name is hind almaaz , content creator ,graphic designer wanna be app devaloper .")
+                Text("My name is Reema Alsheddi, IT student at Princess Nourah university, game developer and soon to be an IOS developer. My life is about books, music and books again.")
             }
             .padding(.all)
            
